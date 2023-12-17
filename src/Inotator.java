@@ -1,5 +1,7 @@
 public class Inotator extends Sportiv {
-
+    public Inotator(String tara, String sport) {
+        super(tara, sport);
+    }
 
     @Override
     void seAntreneaza() {
